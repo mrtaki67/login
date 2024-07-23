@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>login</title>
+</head>
+<body>
+    <main>
+        <div class="content">
+            <div id="criarLogin">
+                <h1>Criar Login</h1>
+                <form onsubmit="CriarLogin(event)">
+                    <div>
+                        <input type="text" placeholder="digite seu nome" name="NovoUsuario" required>
+                    </div>
+                    <div>
+                        <input type="password" name="NovaSenha" id="NovaSenha" placeholder="digite sua senha" required>
+                    </div>
+                    <button>Criar conta</button>
+                </form>
+            </div>
+
+            <div id="fazerLogin">
+                <h1>Login</h1>
+                <form onsubmit="FazerLogin(event)">
+                    <div>
+                        <input type="text" placeholder="digite seu nome" name="usuario" required>
+                    </div>
+                    <div>
+                        <input type="password" name="senha" id="senha" placeholder="digite sua senha" required>
+                    </div>
+                    <button>Fazer Login</button>
+                </form>
+            </div>
+        </div>
+    </main>
+
+    <script src="js/login.js"></script>
+</body>
+</html>

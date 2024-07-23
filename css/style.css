@@ -1,0 +1,17 @@
+.content {
+    display: grid;
+    gap: 20px;
+}
+
+.content button {
+    width: 100px;
+}
+
+form {
+    display: grid;
+    gap: 10px;
+}
+
+form button {
+    width: 100px;
+}
